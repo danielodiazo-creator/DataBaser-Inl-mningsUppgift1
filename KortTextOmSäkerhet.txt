@@ -1,0 +1,20 @@
+Varför säker åtkomst till databaser är viktigt?
+
+Det är viktigt för att skydda databaser från obehörig åtkomst och manipulation.
+till exemepel identitetstöld, bedrägerier och integritetskränkningar.
+det är i sin tur även viktigt för att förhindra attacker, säkerställa korrekt använding och 
+skydda känslig data.
+
+Vad authentication och authorization betyder?
+
+Autentisering handlar om att verifiera identiteten på en användare innan de 
+får åtkomst till databasen. Detta säkerställer att endast legitima användare kan ansluta till databasen.
+Auktorisering kontrollerar vad autentiserade användare får göra i databasen.
+
+Hur man skyddar känslig data i ett backendprojekt?
+
+När det gäller att skydda känslig data i ett backendprojekt ska man ha som vi nämnde tidigare authentication,
+som kan vara bland annat från windows och sql server autentisering. Authorization på olika nivåer såsom
+servernivå, databasnivå, objektnivå där man har flera användare, roller och behörigheter. Det är också viktigt att 
+skydda känslig data med hjälp av Kryptering som omvandlar data till ett format som obehöriga användare inte kan förstå,
+och dölj känslig information med hjälp av vyer som begränsar vad som kan ses i tabellerna.
